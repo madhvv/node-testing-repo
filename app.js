@@ -1,1 +1,3 @@
-console.log(module)
+var logger = require('./logger.js')
+
+logger.log("hahahah")  
