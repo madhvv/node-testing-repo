@@ -1,5 +1,5 @@
-const path = require('path');
+const fs = require('fs');
 
-var pathObj = path.parse(__filename);
+const files = fs.readdirSync('./');
+console.log(files);
 
-console.log(pathObj);
