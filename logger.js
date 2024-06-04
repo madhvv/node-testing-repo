@@ -1,6 +1,6 @@
-var url = 'http://mylogger.io/log';
-function log(message){
-    console.log(message);
-}
+const path = require('path');
 
-module.exports.log = log;
+var pathObj = path.parse(__filename);
+
+console.log(pathObj);
+
